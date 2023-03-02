@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="action_nwjns_bunnies" model="ir.actions.act_window">
+        <field name="name">Bunnies</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">bunnies</field>
+        <field name="view_mode">tree,form</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Become a new Fun(Bunnie) of NWJNS!
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="menu_bunnies"
+              name="Bunnies"
+              action="action_nwjns_bunnies"
+              parent="menu_bunnies_master"
+              sequence="0"
+    />
+</odoo>
