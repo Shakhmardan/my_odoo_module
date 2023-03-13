@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <menuitem id="menu_nwjns_root"
+              name="NWJNS"
+              sequence="0"
+    />
+
+    <menuitem id="menu_bunnies_master"
+              name="Bunnies Details"
+              parent="menu_nwjns_root"
+              sequence="0"
+    />
+
+    <menuitem id="menu_configuration"
+              name="Configurations"
+              parent="menu_nwjns_root"
+              sequence="100"
+    />
+</odoo>
