@@ -1,4 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access.bunnies,access_bunnies,my_first_module.model_bunnies,base.group_user,1,1,1,1
-access.products,access_products,my_first_module.model_products,base.group_user,1,1,1,1
-access.shop,access_shop,my_first_module.model_shop,base.group_user,1,1,1,1
